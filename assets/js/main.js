@@ -12,6 +12,7 @@
 		$header = $('#header'),
 		$footer = $('#footer'),
 		$main = $('#main'),
+		$blog = $('#blog'),
 		$main_articles = $main.children('article');
 
 	// Breakpoints.
@@ -95,6 +96,7 @@
 							// Hide header, footer.
 								$header.hide();
 								$footer.hide();
+								$blog.hide();
 
 							// Show main, article.
 								$main.show();
@@ -169,6 +171,7 @@
 								// Hide header, footer.
 									$header.hide();
 									$footer.hide();
+									$blog.hide();
 
 								// Show main, article.
 									$main.show();
@@ -228,6 +231,7 @@
 							// Show footer, header.
 								$footer.show();
 								$header.show();
+								$blog.show();
 
 							// Unmark as visible.
 								$body.removeClass('is-article-visible');
@@ -263,6 +267,7 @@
 						// Show footer, header.
 							$footer.show();
 							$header.show();
+							$blog.show();
 
 						// Unmark as visible.
 							setTimeout(function() {

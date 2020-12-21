@@ -12,7 +12,7 @@
 		$header = $('#header'),
 		$footer = $('#footer'),
 		$main = $('#main'),
-		$blog = $('#blog'),
+		$blog = $('#blog.css'),
 		$main_articles = $main.children('article');
 
 	// Breakpoints.
